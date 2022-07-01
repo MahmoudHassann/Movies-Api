@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOvies</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <div class="main">
+      <div class="aside">
+        <div class="nav-bar">
+          <div class="bar-logo">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <div class="close">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="bar-social">
+            <div class="glob-icon">
+              <span>
+                <i class="fa-solid fa-globe"></i>
+              </span>
+            </div>
+            <div class="share-icon">
+              <span>
+                <i class="fa-solid fa-share-nodes"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <div class="nav-item">
+            <ul>
+              <li><a href="" id="now_playing">Now Playing</a></li>
+              <li><a href="" id="popular">Popular</a></li>
+              <li><a href="" id="top_rated">Top Rated</a></li>
+              <li><a href="" id="trending">Trending</a></li>
+              <li><a href="" id="upcoming">Upcoming</a></li>
+              <li><a href="#contact" id="contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="social-icon">
+            <a href="">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+            <div class="copyRight pt-3">
+              <span>Copyright Â© 2019 All Rights Reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Main -->
+    <!-- Search Section -->
+    <section class="search pt-5">
+      <div class="container w-75">
+        <div class="row">
+          <div class="col-md-6">
+            <input
+            id="apisearch"
+              type="text"
+              class="form-control mb-5"
+              placeholder="Get Movies By Word..."
+            />
+          </div>
+          <div class="col-md-6">
+            <input
+              id="searchMovie"
+              type="text"
+              class="form-control mb-5"
+              placeholder="Search..."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Search Section -->
+    <!-- Movie Section -->
+    <section class="moviesList text-center my-1 py-2">
+      <div class="container">
+        <div class="row" id="movie">
+          
+        </div>
+      </div>
+    </section>
+    <!-- End Movie Section -->
+    <!-- Contact Us -->
+    <section class="ContactUs" id="contactUs">
+        <div class="container">
+            <div class="row pt-5">
+                <h2>ContactUs...</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input
+                    id="name"
+                      type="text"
+                      class="form-control mb-5"
+                      placeholder="Enter Your Name..."
+                    />
+                    <div class="alert alert-danger " id="name-alert" role="alert">
+                      This is a danger alert—check it out!
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                    id="mail"
+                      type="email"
+                      class="form-control mb-5"
+                      placeholder="Enter Your Mail..."
+                    />
+                    <div class="alert alert-danger " id="mail-alert" role="alert">
+                      This is a danger alert—check it out!
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                    id="phone"
+                      type="number"
+                      class="form-control mb-5"
+                      placeholder="Enter Your Phone..."
+                    />
+                    <div class="alert alert-danger " id="phone-alert" role="alert">
+                      This is a danger alert—check it out!
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="number"
+                      class="form-control mb-5"
+                      placeholder="Enter Your Age..."
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                    id="pass"
+                      type="password"
+                      class="form-control mb-5"
+                      placeholder="Enter Your Password..."
+                    />
+                    <div class="alert alert-danger " id="pass-alert" role="alert">
+                      This is a danger alert—check it out!
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                    id="cpass"
+                      type="password"
+                      class="form-control mb-5"
+                      placeholder="Confirm Your Password..."
+                    />
+                    <div class="alert alert-danger " id="cpass-alert" role="alert">
+                      This is a danger alert—check it out!
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Us -->
+
+    <script src="./js/jQuery-3.6.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

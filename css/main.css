@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color:#000000f2 ;
+}
+.main .aside .nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 250px;
+  height: 100vh;
+  z-index: 5555;
+  background-color: #000;
+  transform: translateX(-100%);
+  transition: all 0.6s ease;
+}
+.main .aside .nav-menu .nav-item ul {
+  padding-left: 30px;
+  height: 300px;
+  overflow: hidden;
+}
+.main .aside .nav-menu .nav-item ul li {
+  padding-top: 25px;
+  opacity: 1;
+  list-style: none;
+}
+.main .aside .nav-menu .nav-item ul li a {
+  color: #f9f6f6;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+.main .aside .nav-menu .social-icon {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+.main .aside .nav-menu .social-icon a {
+  color: #f9f6f6;
+  padding-left: 15px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.main .aside .nav-menu .social-icon .copyRight span {
+  color: #999;
+}
+.main .aside .nav-bar {
+  position: fixed;
+  top: 0;
+  /* left: 256px; */
+  left: 0;
+  width: 60px;
+  height: 100vh;
+  z-index: 55555555;
+  background-color: #f8f6f6;
+  text-align: center;
+  transition: all 0.6s ease;
+}
+.main .aside .nav-bar .bar-logo {
+  padding: 25px 0;
+}
+.main .aside .nav-bar .bar-logo img {
+  height: 48px;
+}
+.main .aside .nav-bar .close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main .aside .nav-bar .close i {
+    font-size: 25px;
+}
+.main .aside .nav-bar .bar-social {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11;
+}
+.main .aside .nav-bar .bar-social > div{
+    padding-top: 10px;
+}
+/* End Nav */
+/* Start Search Inp */
+.search .form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;
+    
+}
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  :-moz-placeholder {
+    text-align: center;
+  }
+/* End Search Inp */
+/* MOvie Section */
+.moviesList .box{
+    overflow: hidden;
+}
+.moviesList .box .overlayer
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    color: #000;
+    font-weight: 800;
+    transition: all 1s;
+
+}
+.moviesList .box :hover .overlayer
+{
+    top: 0;
+    transition: all 1s;
+
+}
+/* End MOvie Section */
+
+.ContactUs h2{
+        color: #fff;
+        
+}
+.ContactUs .form-control{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255,255,255,.7);
+        border-radius: 0;
+        color: #fff;
+        font-weight: 800;
+        
+}
+
+.alert{
+  display: none;
+}
